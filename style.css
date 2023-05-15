@@ -1,3 +1,6 @@
+html {
+  font-size: 1.2rem;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -14,6 +17,7 @@ h1,h2,h3,h4,h5 {
 
 p {
   font-family: "Ysabeau", sans-serif;
+  font-size: 1rem;
   color: #8b715e;
 }
 
@@ -31,11 +35,13 @@ p {
   max-width: 45%;
   font-size: 3rem;
   padding-left: 5%;
+  padding-bottom: 0;
 }
 
 #mariage > .civil {
   max-width: 45%;
   padding-left: 5%;
+  margin-top: 0;
 }
 
 #mariage > .reception {
@@ -58,6 +64,22 @@ p {
   font-size: 3rem;
 }
 
+#bot {
+  background-image: url("images/simple-bg.png");
+}
+
+#bot > .title {
+  font-size: 3rem;
+  padding-top: 5%;
+  max-width: 70%;
+}
+
+#bot > .text {
+  padding-bottom: 2%;
+  max-width: 90%;
+  font-size: 1.3rem;
+}
+
 .card {
   background-size: contain;
   background-repeat: no-repeat;
@@ -75,5 +97,5 @@ p {
   border-style: groove;
   border-color: #8b715e;
   box-shadow: 5px 5px 10px #f5c1b5;
-  margin: 2.5rem;
+  margin: 1.25rem 0;
 }
