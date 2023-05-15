@@ -4,7 +4,7 @@ body {
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
-  background-color: #f7ccc1;
+  background-color: #fae0da;
 
 }
 h1,h2,h3,h4,h5 {
@@ -43,6 +43,21 @@ p {
   padding-left: 5%;
 }
 
+#bapteme {
+  background-image: url("images/bapteme-bg.png");
+}
+
+#bapteme > .head {
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+
+#bapteme > .title {
+  max-width: 45%;
+  padding-top: 50%;
+  font-size: 3rem;
+}
+
 .card {
   background-size: contain;
   background-repeat: no-repeat;
@@ -56,7 +71,9 @@ p {
   min-width: 45rem;
 
   border-width: thin;
+  border-radius: .25rem;
   border-style: groove;
   border-color: #8b715e;
+  box-shadow: 5px 5px 10px #f5c1b5;
   margin: 2.5rem;
 }
