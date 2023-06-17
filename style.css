@@ -21,6 +21,12 @@ p {
   color: #8b715e;
 }
 
+a {
+  font-family: "Ysabeau", sans-serif;
+  color: #ee9883;
+  text-decoration: none;
+}
+
 #mariage {
   background-image: url("images/mariage-bg.png");
 }
